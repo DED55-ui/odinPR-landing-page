@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid black; */
+}
+body{
+    background-color: #1f2937;
+}
+header{
+    display:flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items:center;
+    gap: 100px;
+    color:white;
+    height: 500px;
+}
+.head-section{
+    display:flex;
+    width:70%;
+    gap: 50px;
+}
+.head-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border:0;
+}
+.image-preview img{
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(12, 91, 182);
+    border-radius: 10%;
+}
+.sign-up{
+    background-color: rgb(12, 91, 182);
+    margin-top: 12px;
+    padding: 7px;    
+    width: 100px;
+    border:0;
+    border-radius: 15%;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.sign-up:hover{
+    transform:scaleY(1.1);
+}
+nav {
+    display: flex;
+    gap: 50px;
+    width: 70%;
+    justify-content: space-between;
+}
+.info > h1{
+    font-size: 45px;
+    margin: 5px auto;  
+}
+.navbar{
+    display:flex;
+    gap: 8vh;
+    align-items: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.navbar a:hover{
+    color: rgb(12, 91, 182);
+}
+.logo > img{
+    width: 50px;
+    height: 50px;;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#About{
+    background-image:linear-gradient(white, rgb(185, 169, 169));
+    margin: 20px 0px 0px 0px;
+}
+.animate-h1{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    text-transform: uppercase;
+    background-image:linear-gradient(-225deg, #30198d 0%, #06aaa2 50%, #fff800 100%);
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.image-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.image-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    transition: 0.5s ease-in-out;
+}
+.image-card img:hover{
+    opacity: 80%;
+    padding-bottom: 20px;
+    transform: scale(1.2);
+}
+.image-card{
+    max-width: 150px;
+    text-align: center;
+    font-size: 11px;
+}
+#Quotes{
+    background-color: white;
+}
+.quotes-card{
+    display:flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.quotes-card > p{
+    width: 400px;
+    font-size: 24px;
+    font-style: italic;
+}
+.quoteBy{
+    font-size: 18px;
+    font-weight: bold;
+}
+#joinUs{
+    background-image:linear-gradient(rgb(204, 198, 198), white );
+    padding: 50px;
+}
+.sign-up-container{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(12, 91, 182);
+    border-radius: 3%;
+    padding: 30px;
+    color: #fff;
+}
+.message{
+    margin: 15px;
+    display:flex;
+    justify-content: space-around;
+    gap:40px;
+    align-items: center;
+}
+.message > span > button{
+    border: 2px solid #fff;
+}
+.message > span > button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
